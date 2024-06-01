@@ -5,7 +5,7 @@
     font-family: 'Gill Sans', 'Gill Sans MT', Calibri, 'Trebuchet MS', sans-serif;
 }
 
-header {
+nav {
     width: 100%;
     height: 70px;
     display: flex;
@@ -14,14 +14,13 @@ header {
     box-shadow: 0 0 10px 0 #7b7777;
 }
 
-header .logo {
+nav .logo {
     width: 140px;
     height: 80px;
-    margin-left: 80px;
+    margin: 0 80px;
 }
 
-header ul, li, a {
-    display: inline-block;
+nav ul, li, a {
     color: #000;
     font-size: 14px;
     font-weight: 600;
@@ -29,11 +28,12 @@ header ul, li, a {
     text-decoration: none;
 }
 
-header ul li {
+nav ul li {
+    margin-left: 5px;
     transition: all .2s ease;
 }
 
-header ul li:hover {
+nav ul li:hover {
     background-color: rgba(128, 128, 128, 0.283);
     border-radius: 5px;
 }
@@ -76,6 +76,9 @@ header ul li:hover {
 
 .head-footer p {
     text-align: center;
+    display: flex;
+    justify-content: center;
+    align-items: center;
 }
 
 section {
