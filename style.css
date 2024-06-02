@@ -20,7 +20,9 @@ nav .logo {
     margin: 0 80px;
 }
 
-nav ul, li, a {
+nav ul,
+li,
+a {
     color: #000;
     font-size: 14px;
     font-weight: 600;
@@ -36,6 +38,16 @@ nav ul li {
 nav ul li:hover {
     background-color: rgba(128, 128, 128, 0.283);
     border-radius: 5px;
+}
+
+@media only screen and (max-width: 991px) {
+    .navbar-collapse {
+        display: flex;
+        text-align: center;
+        border-radius: 20px;
+        background-color: #fff;
+        box-shadow: 0 0 8px rgba(128, 128, 128, 0.283);
+    }
 }
 
 .btn-sign {
@@ -102,7 +114,7 @@ section {
     box-shadow: 1px 1px 5px gray;
 }
 
-.sec-left h1{
+.sec-left h1 {
     font-size: 32px;
     font-weight: 600;
     margin-bottom: 10px;
@@ -129,7 +141,7 @@ section {
     transition: all .2s ease;
 }
 
-.btn-down:hover{
+.btn-down:hover {
     background-color: #fff;
     color: #000;
 }
