@@ -135,6 +135,7 @@ p {
     border-radius: 30px;
     color: #fff;
     background: #000;
+    transition: .3s all ease;
 }
 
 .btn-log:hover {
